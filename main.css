@@ -42,3 +42,21 @@ button
     margin-bottom: 15px;
     font-size: 20px;
 }
+footer
+{
+    background-color: gold;
+}
+.container
+{
+    float: left;
+    margin-top: 1rem;
+    width: 17%;
+}
+.con2
+{
+    width: 83%;
+}
+img
+{
+    padding-left: 20px;
+}
