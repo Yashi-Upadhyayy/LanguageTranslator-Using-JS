@@ -1,4 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h1
+{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+.navigation
+{
+    background-color: gold;
+}
+
+#inputText
+{
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    font-size: larger;
+}
+#outputText
+{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+}
+button
+{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
