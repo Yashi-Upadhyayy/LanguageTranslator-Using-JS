@@ -17,6 +17,7 @@ h1
 .navigation
 {
     background-color: gold;
+    margin-top: 0%;
 }
 
 #inputText
@@ -51,7 +52,14 @@ footer
     float: left;
     margin-top: 1rem;
     width: 17%;
-    overflow: hidden;
+    position: relative;
+}
+@media screen and (max-width: 600px)
+{
+    .container
+    {
+        width: 100%;
+    }
 }
 .con2
 {
