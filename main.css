@@ -51,6 +51,7 @@ footer
     float: left;
     margin-top: 1rem;
     width: 17%;
+    overflow: hidden;
 }
 .con2
 {
