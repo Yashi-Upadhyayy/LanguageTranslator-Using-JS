@@ -1,75 +1,65 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-body
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body{
     margin: 0;
 }
 
 /* ..................Header...................... */
-.head-con
-{
+header{
     background-color: gold;
-    padding: 1.2rem;
+    padding: 1.5rem;
 }
-.head-text
-{
+
+.h-heading{
     font-family: 'Courgette', cursive;
     text-align: center;
     font-size: 35px;
     margin: 0;
 }
 
-/* .................Container..................... */
-.container
-{
-    float: left;
-    margin-top: 1.5rem;
-    width: 22%;
-}
-@media screen and (max-width: 500px)
-{
-    .container
-    {
-        width: 100%;
-    }
-}
-/* Container 1 */
-.image
-{
-    padding-left: 25px;
+/* ................Input & Output.................. */
+#inputText{
+    width: 80%;
+    height: 130px;
+    display: block;
+    margin: auto; 
+    font-size: larger;
+    margin-top: 2rem;
 }
 
-/* Container 2 */
-.con2
-{
-    width: 78%;
-}
-#inputText
-{
-    width: 85%;
-    height: 110px;
-    display: block;
-    /* margin: auto; */
-    font-size: larger;
-}
-#outputText
-{
-    width: 85%;
-    height: 100px;
+#outputText{
+    width: 80%;
+    height: 130px;
     margin: auto;
     border: 1px solid black;
+    font-size: larger;
+    margin-bottom: 2rem;
 }
-button
-{
+
+button{
     display: block;
     margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
 }
-footer
-{
+
+/* ....................Footer...................... */
+footer{
     background-color: gold;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.f-heading{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.f-text{
+    margin-block-start: 0.2em;
+    margin-block-end: 0em;
 }
